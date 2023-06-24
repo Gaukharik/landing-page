@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #1f2937;
+  min-height: 400px;
+  margin-bottom: 40px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation bar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-links a:link {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #f9faf8;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 30px;
+}
+
+.hero a:link {
+  background-color: #3882f6;
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #e5e7eb;
+  border-radius: 8px;
+}
+
+/* Info section */
+
+.info {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.boxes p {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+.info img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/* Quote section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.container-1 {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 50px;
+}
+
+.quote-text {
+  font-size: 30px;
+  font-style: italic;
+  color: #1f2937;
+  font-weight: lighter;
+  margin-bottom: 15px;
+}
+.author {
+  text-align: end;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+/* CTA Section */
+
+.cta {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 80px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.cta h3 {
+  margin-bottom: 10px;
+}
+.cta a:link {
+  text-decoration: none;
+  padding: 8px 16px;
+  color: #e5e7eb;
+  border: 1px solid #f9faf8;
+  border-radius: 8px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  color: #e5e7eb;
+}
